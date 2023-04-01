@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.2 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkButton" id="message_button">
+    <property name="name">message_button</property>
+    <property name="visible">True</property>
+    <property name="can_focus">True</property>
+    <property name="receives_default">True</property>
+    <property name="relief">none</property>
+    <property name="margin_bottom">10</property>
+    <signal name="clicked" handler="my_message_menu" swapped="no"/>
+    <child>
+      <object class="GtkBox" id="message">
+        <property name="visible">True</property>
+        <property name="can_focus">True</property>
+        <property name="margin_left">50</property>
+        <property name="margin_right">20</property>
+        <property name="margin_top">15</property>
+        <property name="margin_bottom">15</property>
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkBox">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="halign">end</property>
+            <property name="valign">end</property>
+            <property name="orientation">vertical</property>
+            <property name="margin-start">130</property>
+            <child>
+              <object class="GtkLabel" id="message_text">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="halign">start</property>
+                <property name="margin_right">10</property>
+                <property name="label" translatable="yes">Who are you talking to right now? Who is it that you think you see? Do you know how much I make a year? I mean, even if I tell you, you wouldn’t believe it. Do you know what happens if I suddenly decide to stop going into work? A business big enough it could be listed on the NASDAQ goes belly-up. Gone. It ceases to exist without me. No, you clearly don’t know who you’re talking to so let me clue you in. I am not in danger, Skyler. I am the danger. A guy opens his front door and gets shot, and you think that of me? No. I am the one who knocks.</property>
+                <property name="justify">fill</property>
+                <property name="wrap">True</property>
+                <property name="wrap_mode">word-char</property>
+                <property name="selectable">True</property>
+                <property name="xalign">0</property>
+                <attributes>
+                  <attribute name="weight" value="book"/>
+                  <attribute name="font-desc" value="sans-serif 14"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="message_time">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="halign">end</property>
+                <!-- <property name="margin_right">10</property>
+                <property name="margin_top">5</property> -->
+                <property name="label" translatable="yes">12:21</property>
+                <property name="margin_top">10</property>
+                <property name="wrap">True</property>
+                <attributes>
+                  <attribute name="weight" value="thin"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="message_id">
+                <property name="visible">False</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes"></property>
+                <property name="wrap">True</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

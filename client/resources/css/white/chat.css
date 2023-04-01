@@ -1,0 +1,365 @@
+/* CSS FOR CHAT WINDOW */
+#chat {
+    background: white;
+    color: black;
+    font-family: sans-serif;
+}
+
+#chat #send_message_button {
+    border: none;
+    border-color: transparent;
+    background: rgb(235, 235, 235);
+    box-shadow: none;
+    color: black;
+    outline-style: none;
+    transition: all 0.3s;
+}
+
+#chat #send_message_button:hover {
+    box-shadow: none;
+}
+
+#chat #back_button {
+    border: none;
+    transition: all 0.3s;
+}
+
+#chat #back_button:hover {
+    background: none;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+#chat #settings_button {
+    border: none;
+    background: none;
+    transition: all 0.3s;
+}
+
+#chat #settings_button:hover {
+    background: none;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+#chat entry {
+    background: rgb(235, 235, 235);
+    color: black;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+    transition: all 0.3s;
+}
+
+#chat entry:focus {
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+#chat #user_info {
+    background: white;
+    border-right: 1px solid gray;
+}
+
+#chat #chat_scroller viewport {
+    background: white;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+    border-top: 1px solid gray; 
+    border-bottom: 1px solid gray; 
+}
+
+#chat #welcome_message {
+    background: rgb(235, 235, 235);
+    color: rgb(36, 36, 36);
+    border-radius: 30px;
+    padding: 15px;
+    border: none;
+}
+
+#chat #chats_sidebar {
+    background: white;
+    border-right: 1px solid gray;
+}
+
+#chat #chat_list {
+    background: white;
+    /* border-right: 1px solid gray; */
+}
+
+#chat #messages_container > button {
+    background: white;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+    transition: all 10000s ease;
+}
+
+#chat #messages_container > button:hover {
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    -gtk-icon-shadow: none;
+    border-color: transparent;
+    outline-style: none;
+    box-shadow: none;
+}
+
+#chat #messages_container > button > box > box {
+    background: white;
+    color: black;
+    padding: 15px;
+    border: 1px solid gray;
+    box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.65);
+    border-radius: 20px 20px 20px 20px;
+}
+
+#chat #messages_container > button > #message_sender {
+    color: black;
+}
+
+#chat #messages_container > button > #message_text {
+    color: black;
+}
+
+#chat #messages_container > button > box > box > label:last-child {
+    color: black;
+}
+
+#chat #messages_container > button > box > box > label:nth-child(1) {
+    color: black;
+}
+#chat #messages_container > button > box > box > label:nth-child(2) {
+    color: black;
+}
+
+#chat #chats_sidebar > box > entry {
+    background: rgb(235, 235, 235);
+    border: 1px solid gray;
+    color: black;
+    transition: all 0.3s;
+}
+
+#chat #chats_sidebar > box > entry:focus {
+    color: rgb(37, 37, 37);
+}
+
+#chat #chat_info > box > button {
+    opacity: 0.6;
+    transition: all 0.3s;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+#chat #chat_info > box > button:hover {
+    opacity: 0.8;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+#chat #chat_info > box > button:active {
+    opacity: 0.5;
+}
+
+#chat #chat_list > * {
+    border-bottom: 1px solid gray;
+    transition: all 0.3s;
+}
+
+#chat #chat_list > *:hover {
+    background: rgb(201, 201, 201);
+    border-radius: 2px;
+}
+
+#chat #chat_list > *:selected {
+    background: rgb(189, 189, 189);
+    transition: all 0.3s ease-in-out;
+}
+
+#chat #chat_list > * label:first-child {
+    color: black;
+}
+
+#chat #chat_list > * label:nth-child(2) {
+    color: black;
+}
+
+#chat #chat_list > * label:nth-child(3) {
+    color: black;
+}
+
+/* CSS FOR ERROR WINDOW */
+#error {
+    background: white;
+    font-family: sans-serif;
+}
+
+#error label {
+    color: #3d3d3d;
+    font-size: 16px;
+}
+
+#error button {
+    background: #efefef;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+#error button:hover {
+    background: #dcdcdc;
+    border: none;
+    color: #d9dede;
+    box-shadow: none;
+}
+
+#error button:active {
+    background: #bdbdbd;
+    border: none;
+    color: #d9dede;
+}
+
+/* CSS FOR REGISTRATION */
+#login {
+    background: white;
+    font-size: 15px;
+    color: #3d3d3d;
+}
+
+#login label {
+    color: #3d3d3d;
+}
+
+#login entry.placeholder {
+    color: red;
+}
+
+#login entry {
+    background: #efefef;
+    color: #3d3d3d;
+    border: 0px;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+#login entry:focus {
+    border: 2px solid #dcdcdc;
+    border-radius: 13px;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+
+}
+
+#login button:nth-child(6) {
+    background: #efefef;
+    color: black;
+    border: none;
+    border-radius: 15px;
+}
+
+#login button:nth-child(6):hover {
+    background: #dcdcdc;
+    border: none;
+    color: #d9dede;
+    box-shadow: none;
+}
+
+#login button:nth-child(6):active {
+    background: #bdbdbd;
+    border: none;
+    color: #d9dede;
+}
+
+#login button:nth-child(7) {
+    color: #989898;
+}
+
+#signup {
+    background: white;
+    font-size: 15px;
+    color: #3d3d3d;
+}
+
+#signup label {
+    color: #3d3d3d;
+}
+
+#signup entry {
+    background: #efefef;
+    color: #3d3d3d;
+    border: 0px;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+#signup entry:focus {
+    border: 2px solid #dcdcdc;
+    border-radius: 13px;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+#signup button:nth-child(8) {
+    background: #efefef;
+    color: black;
+    border: none;
+    border-radius: 15px;
+}
+
+#signup button:nth-child(8):hover {
+    background: #dcdcdc;
+    border: none;
+    color: #d9dede;
+    box-shadow: none;
+}
+
+#signup button:nth-child(8):active {
+    background: #bdbdbd;
+    border: none;
+    color: #d9dede;
+}
+
+#signup button:nth-child(9) {
+    color: #989898;
+}
+
+/* CSS FOR POPUP */
+#popup {
+    background: #8f9e9d;
+    font-family: sans-serif;
+    border-radius: 12px;
+    border: 1px solid #5d6c6b;
+}
+
+#popup label {
+    color: #eef0f0;
+    font-size: 16px;
+}
+
+#popup button {
+    background: #8f9e9d;
+    color: #eef0f0;
+    border: none;
+    transition: all 0.3s;
+}
+
+#popup button:hover {
+    background: #5d6c6b;
+    color: #d9dede;
+    box-shadow: none;
+}
+
+#popup button:active {
+    background: #5d6c6b;
+    border: none;
+    color: #d9dede;
+}

@@ -1,0 +1,357 @@
+#chat {
+    background: #3a1078;
+    color: #dbd7ff;
+    font-family: sans-serif;
+}
+
+#chat #send_message_button {
+    border: none;
+    border-color: transparent;
+    background: #3a1078;
+    box-shadow: none;
+    color: #dbd7ff;
+    outline-style: none;
+    transition: all 0.3s;
+}
+
+#chat #send_message_button:hover {
+    box-shadow: none;
+}
+
+#chat #back_button {
+    border: none;
+    transition: all 0.3s;
+}
+
+#chat #back_button:hover {
+    background: none;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+#chat #settings_button {
+    border: none;
+    transition: all 0.3s;
+}
+
+#chat #settings_button:hover {
+    background: none;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+#chat entry {
+    background: #3a1078;
+    color: #dbd7ff;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+    transition: all 0.3s;
+}
+
+#chat entry:focus {
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+#chat #user_info {
+    background: #1F202C;
+    border-right: 1px solid #7d38ff;
+}
+
+#chat #chat_scroller viewport {
+    background: #3a1078;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+    border-top: 2px solid #7d38ff; 
+    border-bottom: 2px solid #7d38ff;
+}
+
+#chat #welcome_message {
+    background: #7d38ff;
+    color: #dbd7ff;
+    border-radius: 30px;
+    padding: 15px;
+    border: none;
+}
+
+#chat #chats_sidebar {
+    background: #3a1078;
+    border-right: 1px solid #7d38ff;
+}
+
+#chat #chat_list {
+    background: #3a1078;
+    /* border-right: 1px solid #3a1078; */
+}
+
+#chat #messages_container > button {
+    background: #3a1078;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+    transition: all 10000s ease;
+}
+
+#chat #messages_container > button:hover {
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    -gtk-icon-shadow: none;
+    border-color: transparent;
+    outline-style: none;
+    box-shadow: none;
+}
+
+#chat #messages_container > button > box > box {
+    background: #740bf7;
+    padding: 15px;
+    border: none;
+    box-shadow: 0px 10px 10px 2px rgba(0,0,0,0.65);
+    border-radius: 20px 20px 20px 20px;
+}
+
+#chat #messages_container > button > #message_sender {
+    color: #dbd7ff;
+}
+
+#chat #messages_container > button > #message_text {
+    color: #d9dede;
+}
+
+#chat #messages_container > button > box > box > label:last-child {
+    color: #d9dede;
+}
+
+#chat #messages_container > button > box > box > label:nth-child(1) {
+    color: rgb(236, 235, 235);
+}
+#chat #messages_container > button > box > box > label:nth-child(2) {
+    color: rgb(236, 235, 235);
+}
+
+#chat #chats_sidebar > box > entry {
+    background: #7d38ff;
+    color: rgb(236, 235, 235);
+    transition: all 0.3s;
+}
+
+#chat #chats_sidebar > box > entry:focus {
+    color: rgb(197, 197, 197);
+}
+
+#chat #chat_info > box > button {
+    opacity: 0.6;
+    transition: all 0.3s;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+#chat #chat_info > box > button:hover {
+    opacity: 0.8;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+#chat #chat_info > box > button:active {
+    opacity: 0.5;
+}
+
+#chat #chat_list > * {
+    border-bottom: 2px solid #7d38ff;
+    transition: all 0.3s;
+}
+
+#chat #chat_list > *:hover {
+    background: #7d38ff;
+    border-radius: 2px;
+}
+
+#chat #chat_list > *:selected {
+    background: #740bf7;
+    transition: all 0.3s ease-in-out;
+}
+
+#chat #chat_list > * label:first-child {
+    color: #dbd7ff;
+}
+
+#chat #chat_list > * label:nth-child(2) {
+    color: #d9dede;
+}
+
+#chat #chat_list > * label:nth-child(3) {
+    color: #d9dede;
+}
+
+/* CSS FOR ERROR WINDOW */
+#error {
+    background: #5c0dc6;
+    font-family: sans-serif;
+}
+
+#error label {
+    color: #fefce8;
+    font-size: 16px;
+}
+
+#error button {
+    background: #5c0dc6;
+    color: #fefce8;
+    border: none;
+    border-radius: 12px;
+    transition: all 0.3s;
+}
+
+#error button:hover {
+    background: #740bf7;
+    border: none;
+    color: #d9dede;
+    box-shadow: none;
+}
+
+#error button:active {
+    background: #740bf7;
+    border: none;
+    color: #d9dede;
+}
+
+/* CSS FOR REGISTRATION */
+#login {
+    background: #3a1078;
+    font-size: 15px;
+    color: #fefce8;
+}
+
+#login label {
+    color: #fefce8;
+}
+
+#login entry {
+    background: #5c0dc6;
+    color: #fefce8;
+    border: 0px;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+#login entry:focus {
+    border: 2px solid #d9dede;
+    border-radius: 13px;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+
+}
+
+#login button:nth-child(6) {
+    background: #5c0dc6;
+    color: #fefce8;
+    border: none;
+    border-radius: 15px;
+}
+
+#login button:nth-child(6):hover {
+    background: #740bf7;
+    border: none;
+    color: #d9dede;
+    box-shadow: none;
+}
+
+#login button:nth-child(6):active {
+    background: #740bf7;
+    border: none;
+    color: #d9dede;
+}
+
+#login button:nth-child(7) {
+    color: #fefce8;
+}
+
+#signup {
+    background: #3a1078;
+    font-size: 15px;
+    color: #fefce8;
+}
+
+#signup label {
+    color: #fefce8;
+}
+
+#signup entry {
+    color: #fefce8;
+    background: #5c0dc6;
+    border: 0px;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+#signup entry:focus {
+    border: 2px solid #d9dede;
+    border-radius: 13px;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+#signup button:nth-child(8) {
+    background: #5c0dc6;
+    color: #fefce8;
+    border: none;
+    border-radius: 15px;
+}
+
+#signup button:nth-child(8):hover {
+    background: #740bf7;
+    border: none;
+    color: #d0c7fe;
+    box-shadow: none;
+}
+
+#signup button:nth-child(8):active {
+    background: #740bf7;
+    border: none;
+    color: #d0c7fe;
+}
+
+#signup button:nth-child(9) {
+    color: #fefce8;
+}
+
+/* CSS FOR POPUP */
+#popup {
+    background: #5c0dc6;
+    font-family: sans-serif;
+    border-radius: 12px;
+    border: 1px solid #740bf7;
+}
+
+#popup label {
+    color: #fefce8;
+    font-size: 16px;
+}
+
+#popup button {
+    background: #5c0dc6;
+    color: #fefce8;
+    border: none;
+    transition: all 0.3s;
+}
+
+#popup button:hover {
+    background: #740bf7;
+    color: #d9dede;
+    box-shadow: none;
+}
+
+#popup button:active {
+    background: #740bf7;
+    border: none;
+    color: #d9dede;
+}

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.2 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkListBoxRow" id="chat">
+    <property name="visible">True</property>
+    <property name="can-focus">False</property>
+    <child>
+      <object class="GtkBox">
+        <property name="height-request">64</property>
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <property name="margin-left">14</property>
+        <property name="margin-right">14</property>
+        <property name="margin-start">14</property>
+        <property name="margin-end">14</property>
+        <child>
+          <object class="GtkImage" id="chat_icon">
+            <property name="width-request">48</property>
+            <property name="height-request">48</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="valign">center</property>
+            <property name="pixbuf">../../resources/icons/user_icon.png</property>
+            <property name="icon_size">0</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+              <object class="GtkLabel" id="chat_id">
+                <property name="visible">False</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes"></property>
+                <property name="wrap">True</property>
+              </object>
+            </child>
+        <child>
+          <object class="GtkBox">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="halign">start</property>
+            <property name="valign">center</property>
+            <property name="margin-left">14</property>
+            <property name="margin-start">14</property>
+            <property name="orientation">vertical</property>
+            <child>
+              <object class="GtkLabel" id="chat_title">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="halign">start</property>
+                <property name="margin-bottom">4</property>
+                <property name="label" translatable="yes">Greeting room</property>
+                <attributes>
+                  <attribute name="font-desc" value="Sans 14"/>
+                  <attribute name="weight" value="semibold"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="chat_status">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="halign">start</property>
+                <property name="label" translatable="yes">Welcome back stranger!</property>
+                <attributes>
+                  <attribute name="font-desc" value="Sans 12"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="valign">center</property>
+            <property name="label" translatable="yes">All</property>
+            <property name="justify">right</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">2</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
