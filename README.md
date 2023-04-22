@@ -2,7 +2,7 @@
 
 This is our implementation of the real-time messaging app for the Ucode project. 
 
-<p align=center>https://user-images.githubusercontent.com/62791316/233793201-a8b5d132-e447-4aa0-b25d-2e117ec18a39.mp4</p>
+https://user-images.githubusercontent.com/62791316/233793201-a8b5d132-e447-4aa0-b25d-2e117ec18a39.mp4
 
 The chat was created by:
 
