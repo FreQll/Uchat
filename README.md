@@ -1,4 +1,4 @@
-# <p align=center>Uchat</p>
+# <p align=center>Uchat | Abyss</p>
 
 This is our implementation of the real-time messaging app for the Ucode project. The chat was created by:
 
@@ -22,7 +22,7 @@ To delete project enter ```make uninstall``` and to rebuild the project - ```mak
 
 <h1 align=center> Implemented features </h1>
 
-* **Avatar change** Each user can change the default profile picture from out of 30 prepared in advance. In the future it is planned to make it possible to insert your own photo, as well as to generate an avatar depending on the initials of the nickname. <br> <p align="center"><img src="https://user-images.githubusercontent.com/62791316/233790074-c5423696-ab4a-4887-ad1f-9ba5ee423ef1.png" alt="GTK+" width="300" height="400"></p>
+* **Avatar change** Each user can change the default profile picture from out of 30 prepared in advance. In the future it is planned to make it possible to insert your own photo, as well as to generate an avatar depending on the initials of the nickname. <br> <p align="center"><img src="https://user-images.githubusercontent.com/62791316/233790074-c5423696-ab4a-4887-ad1f-9ba5ee423ef1.png" alt="GTK+" width="350" height="400"></p>
 
 * **Choosing a theme** In settings, user can change collors of the application (including login and signup windows). Now available in the following colors: 
 1. Standard dark 
