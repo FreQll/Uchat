@@ -22,7 +22,7 @@ To delete project enter ```make uninstall``` and to rebuild the project - ```mak
 
 <h1 align=center> Implemented features </h1>
 
-* **Avatar change** Each user can change the default profile picture from out of 30 prepared in advance. In the future it is planned to make it possible to insert your own photo, as well as to generate an avatar depending on the initials of the nickname. <br> <p align="center"><img src="https://user-images.githubusercontent.com/62791316/233790074-c5423696-ab4a-4887-ad1f-9ba5ee423ef1.png" alt="GTK+" width="300" height="200"></p>
+* **Avatar change** Each user can change the default profile picture from out of 30 prepared in advance. In the future it is planned to make it possible to insert your own photo, as well as to generate an avatar depending on the initials of the nickname. <br> <p align="center"><img src="https://user-images.githubusercontent.com/62791316/233790074-c5423696-ab4a-4887-ad1f-9ba5ee423ef1.png" alt="GTK+" width="300" height="400"></p>
 
 * **Choosing a theme** In settings, user can change collors of the application (including login and signup windows). Now available in the following colors: 
 1. Standard dark 
@@ -30,11 +30,11 @@ To delete project enter ```make uninstall``` and to rebuild the project - ```mak
 3. Ocean blue
 4. Yellow
 5. Pink 
-6. Purple <br><br> ![image](https://user-images.githubusercontent.com/62791316/233790305-5247153a-7758-4975-8634-d3aa74af38c8.png) <br> ![image](https://user-images.githubusercontent.com/62791316/233790312-ca0712a6-96a8-449b-9efa-0afab1053c4b.png) <br> ![image](https://user-images.githubusercontent.com/62791316/233790331-f52e4de0-e97d-4bef-8c40-c9d212c6b00a.png)<br>
+6. Purple <br><br><p align="center"><img src="https://user-images.githubusercontent.com/62791316/233790305-5247153a-7758-4975-8634-d3aa74af38c8.png" alt="Screenshot1" width="400" height="300"><img src="https://user-images.githubusercontent.com/62791316/233790312-ca0712a6-96a8-449b-9efa-0afab1053c4b.png" alt="Screenshot2" width="400" height="300"><img src="https://user-images.githubusercontent.com/62791316/233790331-f52e4de0-e97d-4bef-8c40-c9d212c6b00a.png" alt="Screenshot3" width="400" height="300"></p> <br>
 
 * **Editing, deleting, copying messages** User can delete, edit, copy their own message, and only copy other messages. Also user can delete whole chat. And the coolest part is that delete and edit messages working in real time! <br> ![image](https://user-images.githubusercontent.com/62791316/233791304-aabeef2e-6b90-4dc1-b4e3-57268dbf3ec4.png)<br>
 
-* **Reconnection** If the app lost connection with the server, client will constantly try to reconnect. Appropriate message and gif will be displayed. <br> ![image](https://user-images.githubusercontent.com/62791316/233791650-e7cac0a8-2e7e-48ed-acbf-91b705346824.png)<br>
+* **Reconnection** If the app lost connection with the server, client will constantly try to reconnect. Appropriate message and gif will be displayed. <br> <p align="center">![image](https://user-images.githubusercontent.com/62791316/233791650-e7cac0a8-2e7e-48ed-acbf-91b705346824.png)</p><br>
 
 * ```uchat_server``` works as a **daemon**, listening to the specified port. 
 
@@ -44,4 +44,4 @@ To delete project enter ```make uninstall``` and to rebuild the project - ```mak
 
 <h1 align=center> Used tools </h1>
 
-<p align="center"><img src="https://blog.desdelinux.net/wp-content/uploads/2018/09/gtk-logo.png" alt="GTK+" width="400" height="200"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Glade_3_logo.svg/114px-Glade_3_logo.svg.png" alt="Glade" width="400" height="200"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="CSS" width="200" height="250"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SQLite370.svg/1200px-SQLite370.svg.png" alt="SQLite" width="400" height="200"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/OpenSSL_logo.svg/278px-OpenSSL_logo.svg.png" alt="OpenSSL" width="200" height="100"></p>
+<p align="center"><img src="https://blog.desdelinux.net/wp-content/uploads/2018/09/gtk-logo.png" alt="GTK+" width="400" height="200"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Glade_3_logo.svg/114px-Glade_3_logo.svg.png" alt="Glade" width="251" height="198"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="CSS" width="200" height="250"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SQLite370.svg/1200px-SQLite370.svg.png" alt="SQLite" width="400" height="200"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/OpenSSL_logo.svg/278px-OpenSSL_logo.svg.png" alt="OpenSSL" width="250" height="100"></p>
