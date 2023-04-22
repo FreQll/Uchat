@@ -1,11 +1,17 @@
 # <p align=center>Uchat | Abyss</p>
 
-This is our implementation of the real-time messaging app for the Ucode project. The chat was created by:
+This is our implementation of the real-time messaging app for the Ucode project. 
 
-***oshcherbat*** - Server-side Developer,<br>
-***mcherednyc*** - Server-side Developer,<br>
-***amorozenko*** - Client-side Developer,<br>
-***dshchepin*** - Team lead | Client-side Developer.<br>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=Geh1b6XWR6E&ab
+" target="_blank"><img src="http://img.youtube.com/vi/Geh1b6XWR6E&ab/0.jpg" 
+alt="Abyss" width="240" height="180" border="10" /></a>
+
+The chat was created by:
+
+***[oshcherbat](https://github.com/BigTako)*** - Server-side Developer,<br>
+***[mcherednyc](https://github.com/Nastroyki)*** - Server-side Developer,<br>
+***[amorozenko](https://github.com/xqudee)*** - Client-side Developer,<br>
+***[dshchepin](https://github.com/FreQll)*** - Team lead | Client-side Developer.<br>
 
 <h1 align=center> Installation </h1>
 
