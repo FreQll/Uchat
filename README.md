@@ -2,9 +2,8 @@
 
 This is our implementation of the real-time messaging app for the Ucode project. 
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=Geh1b6XWR6E&ab
-" target="_blank"><img src="http://img.youtube.com/vi/Geh1b6XWR6E&ab/0.jpg" 
-alt="Abyss" width="240" height="180" border="10" /></a>
+<p align=center><a href="http://www.youtube.com/watch?feature=player_embedded&v=Geh1b6XWR6E" target="_blank"><img src="http://img.youtube.com/vi/Geh1b6XWR6E/0.jpg" 
+alt="Abyss" width="320" height="240" border="10" /></a></p>
 
 The chat was created by:
 
