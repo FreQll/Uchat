@@ -15,7 +15,7 @@ The chat was created by:
 
 <h1 align=center> Installation </h1>
 
-**Important!** You need to already have installed GTK library on your device, so if you do not - install it first.
+**Important!** Abyss works ***only on MacOS*** and also you need to already have installed GTK library on your device, so if you do not - *install it first*.
 
 ```brew install gtk+3```
 
@@ -50,4 +50,4 @@ To delete project enter ```make uninstall``` and to rebuild the project - ```mak
 
 <h1 align=center> Used tools </h1>
 
-<p align="center"><img src="https://blog.desdelinux.net/wp-content/uploads/2018/09/gtk-logo.png" alt="GTK+" width="400" height="200"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Glade_3_logo.svg/114px-Glade_3_logo.svg.png" alt="Glade" width="251" height="198"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="CSS" width="200" height="250"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SQLite370.svg/1200px-SQLite370.svg.png" alt="SQLite" width="400" height="200"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/OpenSSL_logo.svg/278px-OpenSSL_logo.svg.png" alt="OpenSSL" width="250" height="100"></p>
+<p align="center"><img src="https://blog.desdelinux.net/wp-content/uploads/2018/09/gtk-logo.png" alt="GTK+" width="400" height="200"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Glade_3_logo.svg/114px-Glade_3_logo.svg.png" alt="Glade" width="200" height="147"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="CSS" width="200" height="250"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SQLite370.svg/1200px-SQLite370.svg.png" alt="SQLite" width="400" height="200"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/OpenSSL_logo.svg/278px-OpenSSL_logo.svg.png" alt="OpenSSL" width="250" height="100"></p>
